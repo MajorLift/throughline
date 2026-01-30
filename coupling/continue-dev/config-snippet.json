@@ -1,0 +1,3 @@
+{
+  "systemMessage": "## Learn Commands\n\n### /learn {correction}\n\nWhen user invokes /learn:\n1. Acknowledge the correction\n2. Classify: session-only, standing preference, or skill\n3. Apply immediately\n4. For standing preferences, suggest persisting to config\n\n### /postmortem\n\nWhen user invokes /postmortem:\n1. What happened (facts)\n2. Root cause (not symptoms)\n3. Mitigation (required, must be concrete)\n4. Pattern (generalizable insight)\n\n## Behavior\n- Apply corrections immediately\n- Suggest /learn when corrected\n- Suggest /postmortem after mistakes"
+}
